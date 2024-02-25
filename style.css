@@ -1,0 +1,372 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    background-color:#06090A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    width:  80%;
+    height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+nav li{
+    list-style-type: none;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5 linear;
+
+}
+nav li a:hover{
+    color: #F57520;
+    transition: 0.5 linear;
+}
+nav li a:active{
+    color: greenyellow;
+    transition: 0.5 linear;
+}
+.section1
+{
+    background-image: url(./1.png);
+    height: 875px;
+    background-position-x: -300px;
+   
+    
+    
+}
+.section1 h1{
+    font-family: Open Sans;
+font-size: 96px;
+font-weight: 700;
+line-height: 118px;
+letter-spacing: 0.02em;
+text-align: left;
+color: white;
+width: 679px;
+height: 227px;
+
+
+
+
+
+}
+.section1 p{
+    font-family: Open Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0.01em;
+text-align: left;
+width: 645px;
+height: 87px;
+color: white;padding-top: 48px;
+margin-bottom: 80px;
+
+
+
+
+}
+.section1 button{
+    width: 180px;
+    height: 51px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+   
+    
+   
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: right;
+text-align: center;
+background:none;
+
+}
+.section1 button:hover{
+    background-color: #F57520;
+
+}
+.bir{
+    padding-top: 100px;
+    padding-left: 10%;
+   
+}
+.div1{
+    width: 747px;
+    height: 212px;
+    background: rgba(16, 16, 16, 1);
+}
+.div1 h2{
+    width: 277px;
+height: 76px;
+top: 54px;
+left: 319px;
+font-family: Open Sans;
+font-size: 24px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0.01em;
+text-align: left;
+color: rgba(179, 179, 179, 1);
+padding-left: 150px;
+padding-top: 54px;
+;
+
+}
+.div2{
+    width: 427px;
+    height: 212px;
+    
+    background: rgba(52, 49, 45, 1);
+}
+.div3 h3{
+    width: 326px;
+    height: 114px;
+    top: 68px;
+    left: 48px;
+    color: white;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    padding-top: 54px;
+    padding-left: 50px;
+    
+    
+}
+.div2 h4{
+    width: 277px;
+    height: 76px;
+    font-family: Open Sans;
+    padding-top: 54px;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 38px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        
+        color: rgba(179, 179, 179, 1);
+        
+    }
+
+.div3{
+    width: 746px;
+height: 212px;background: rgba(107, 102, 102, 1);
+
+}
+.section3{
+    display: flex;
+}
+.section4{
+    width: 100%;
+    background-color: #B3B3B3;
+}
+.container3{
+   
+    justify-content: space-around;
+   
+    width: 90%;
+    background-color: #B3B3B3;
+    height: 1000px;
+    margin: 0 auto;
+
+}
+.row{
+    width: 1000px;
+height: 300px;
+top: 1378px;
+left: 340px;
+border-radius: 10px;
+background-image: url(./pngwing.png);
+background-repeat: no-repeat;
+background-color: #F57520;
+background-size: 875px;
+background-position-x: 200px;
+margin-top: 122px;
+}
+.row h3{
+    font-family: Open Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 49px;
+letter-spacing: 0.05em;
+text-align: left;
+width: 335px;
+height: 56px;
+margin-top: 122px;
+margin-left: 80px;
+
+}
+.section4 h2{
+    
+    font-family: Open Sans;
+font-size: 64px;
+font-weight: 800;
+line-height: 79px;
+letter-spacing: 0.05em;
+text-align: center;
+width: 384px;
+height: 56px;
+margin: 0 auto;
+padding-top: 113px;
+ 
+ 
+}
+.left div{
+    width: 400px;
+height: 458px;
+top: 1694px;
+left: 340px;
+padding: 80px, 0px, 0px, 0px;
+border-radius: 10px;
+background-color: #06090A;
+color: white;
+background-image: url(./pngwing\ 2.png);
+background-repeat: no-repeat;
+background-position-y: 180px ;
+
+}
+.left div h4{
+    font-family: Open Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 49px;
+letter-spacing: 0.05em;
+text-align: left;
+
+height: 56px;
+padding-top: 80px;
+padding-left: 98px;
+
+}
+.right div{
+    width: 400px;
+    height: 216px;
+    top: 1694px;
+    left: 752px;
+    border-radius: 10px;
+    background-color: #06090A;
+    
+}
+.right{
+    width: 900px;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.row-4{
+    display: flex;
+  
+    justify-content: space-around;
+    margin-top: 16px;
+    
+}
+h6{
+    font-family: Open sans;
+    font-size: 64px;
+line-height: 79px;
+letter-spacing: 0.05em;
+text-align: left;
+color: white;
+text-align: center;
+
+}
+.section5{
+    width: 100%;
+    /* background: #000;    */
+    padding-top: 50px;
+    height: 586px;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: #06090A;   
+}
+.left2{
+    padding-left: 10%;
+    width: 556px;
+height: 362px;
+ top: 85px;
+   left: 282px;
+   gap: 20px;
+
+}
+.left2 h2{
+    font-family: Open Sans;
+font-size: 48px;
+font-weight: 600;
+line-height: 59px;
+letter-spacing: 0.05em;
+text-align: left;
+width: 549px;
+height: 118px;
+top: 85px;
+left: 282px;
+
+}
+.left2 p{
+    width: 400px;
+height: 104px;
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 800;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+.left2 .p2{
+    width: 400px;
+    height: 104px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 32px;   
+    
+}
+.right img{
+    width: 400px;
+}
+.section6{
+    background-color: #AFAFAF;
+}
+.kard{
+    width: 400px;
+height: 462px;
+border-radius: 10px;
+background-color: #06090A;
+color: white;
+}
+.cards{
+    width: 80%;
+    
+    display: flex;
+    align-items: center;justify-content: space-between;
+    margin: 0 auto;
+}
+.kard img{
+    
+}
